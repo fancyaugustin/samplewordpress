@@ -1,0 +1,93 @@
+/*-----------------------------------------------------------
+
+ Theme Name: learningwordPress
+ Version: 1.4
+ Description: Business/Portfolio WordPress theme
+ Author: WPExplorer
+ Author URI: http://www.wpexplorer.com
+ Theme URI: http://www.wpexplorer.com/pytheas-free-wordpress-theme/
+ Tags: light, flexible-width, custom-header, custom-background, threaded-comments, custom-menu, featured-image-header, featured-images, full-width-template, theme-options, translation-ready
+ License: GNU General Public License version 2.0
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+/*	RESET
+----------------------------------------------------------- */
+html{
+      height: 95%;
+  width: 89%;
+  background: rgb(206, 225, 227);
+}
+body{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+a:link,a:visited{
+    color: #006ec3;
+}
+p{
+    line-height: 1.65em;
+}
+
+.container{
+    max-width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+        margin:0 auto;
+}
+.site-header{
+    border-bottom: 2px solid #999;
+}
+.site-footer{
+    border-top: 2px solid #999;
+}
+article.post{
+    border-bottom: 2px dotted #bbbbbb
+}
+article.post:last-of-type{
+   border-bottom: none;
+}
+.site-nav ul{
+    margin:0;
+    padding: 0;
+}
+.site-nav ul:after,.site-nav ul:before{
+    content: "";
+    display: table;
+}
+.site-nav ul:after{
+    clear: both;
+}
+.site-nav ul{
+    *zoom:1;
+}
+.site-nav ul li{
+    list-style: none;
+    float: left;
+}
+.site-header .site-nav ul li{
+    margin-right: 5px;
+}
+.site-header .site-nav ul li a:link,.site-header .site-nav ul li a:visited{
+ display: block;
+ padding: 10px 18px;
+ border: 1px solid #BBB;
+ border-bottom: none;
+ text-decoration: none;
+ 
+}
+.site-header .site-nav ul li a:hover{
+  background-color: #ECECEC  
+}
+.site-header .site-nav ul li.current-menu-item a:link,
+.site-header .site-nav ul li.current-menu-item a:visited{
+    background-color: #006ec3;
+    color: #FFF;
+}
+.site-footer nav ul li{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #BBB;
+}
